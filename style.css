@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-conatiner{
+    width:98vw ;
+    height:100vh ;
+   display: flex;
+}
+.menu-links{
+  flex : 0.7 ;
+  
+}
+.item-list{
+    flex : 4;
+    margin-left: 5px;
+   background-color: #272A30;
+}
+#resultContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh; /* Set a maximum height, adjust as needed */
+    overflow-y:auto;
+    position: relative;
+}
+
+.menu-links{
+    display:flex;
+    flex-direction: column;
+    background: #0C0E10;
+    align-items: center;
+}
+#slogan{
+    color: #FF2424;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.quick-links,.other-links{
+    border-top: 1px solid rgb(65, 63, 63);
+    margin-top: 15px;
+}
+.quick-links>div>button{
+    width: 176px;
+    height: 46px;
+   margin: 5px 0px;
+}
+.other-links>h4{
+    margin-top: 5px;
+ color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.other-links>ol>li{
+color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 15px;
+}
+.search-bar{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sign-btn{
+width: 176px;
+height: 46px;
+color: #FFF;
+border: none;
+background-color: #FF2424;
+margin-inline: 5px;
+}
+#bar{
+ border-radius: 5px;
+background: #272A30;
+width: 700px;
+height: 46px;
+flex-shrink: 0;
+}
+#hero-section >img{
+   width:100%;
+   height:40vh;
+}
+#click{
+    width: 100%;
+    height:300px ;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#click-menu{
+    width:400px;
+    height:50px;
+    background-color: #FF2424;
+    color: #FFF;
+    text-align: center;
+    padding: 15px;
+}
+.dish-item{
+    margin-inline:15px;
+}
+.name{
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+}
+
